@@ -1,0 +1,47 @@
+
+.header{
+    text-align: center;
+    color: blue;
+    font-style: italic;
+}
+.ppt{
+    color: red;
+    font-size: larger;
+    font-style: oblique;
+    text-align: center;
+}
+*{
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    padding: 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+}  
+body {
+    margin-left: 5;
+    font: sans-serif;
+    display: flex;
+}
+  
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    height: auto;
+    text-wrap: 3rem;
+}
+.column{
+    overflow: hidden;
+    border-radius: 10px; 
+}
+.column img{
+    width: 200px;
+    height: 200px;
+    
+}
+.column:hover img{
+    transform: scale(1.1);
+}
